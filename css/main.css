@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Your typeface";
+    src: url("type/filename.eot");
+    src: local("Alternate name"), local("Alternatename"),
+        url("type/filename.woff") format("woff"),
+        url("type/filename.otf") format("opentype"),
+        url("type/filename.svg#filename") format("svg");
+}
+@font-face {
+    font-family: "Your italic typeface";
+    src: url("type/filename-ital.eot");
+    src: local("Alternate name"), local("Alternatename"),
+        url("type/filename-ital.woff") format("woff"),
+        url("type/filename-ital.otf") format("opentype"),
+        url("type/filename-ital.svg#filename-ital") format("svg");
+}
+
+* {
+    margin:0x;
+    padding:0px;
+    list-style-type: none;
+    font-weight: 100;
+}
+
+body {
+    background: #efefef;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+
+
+/* ---- Struktur ---- */
+
+.wrapper {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.main-content { 
+    width: 59%;
+    float: left;
+}
+header {
+    background-image: url(../images/header.svg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+nav {}
+
+section {}
+
+article {}
+
+aside {}
+
+footer {
+    clear: both;
+}
+
+
+.education {
+    width: 20%;
+    float: left;
+}
+
+.edu_content {
+    width: 20%;
+    float: right;
+}
+
+/* ---- /Struktur ---- */
+
+/* ---- Nav ---- */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 2%;
+
+}
+/*
+nav ul li:first {
+margin-left: 0px;
+}
+*/
+
+nav ul li a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {}
+
+/* ---- /Nav ---- */
+
+/* ---- Spec Nav ---- */
+
+.spec_nav {
+    background: #ccc;
+    text-align:center;
+}
+
+.spec_nav ul {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0;
+}
+.spec_nav li {
+    display: inline;
+}
+.spec_nav li a {
+    display: inline-block;
+    font-size: 16px;
+    width: 15%;
+    
+    background: green;
+    margin: 0px;
+    text-align: center;
+    font-family: bebas_neueregular;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.spec_nav li:nth-child(1) a {
+    background: #003d58;
+}
+.spec_nav li:nth-child(2) a {
+    background: #005578;
+}
+.spec_nav li:nth-child(3) a {
+    background: #006994;
+}
+.spec_nav li:nth-child(4) a {
+    background: #007cb0;
+}
+.spec_nav li:nth-child(5) a {
+    background: #008eca;
+}
+.spec_nav li:nth-child(6) a {
+    background: #009fe3;
+}
+.spec {
+    
+    padding: 5px;
+    width: 10
+    
+}
+
+/* ---- / Spec Nav ---- */
+
+/* ----- Sub nav ------ */
+
+.subnav {
+    background: #91a0c3;
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    transition: all 500ms;
+}
+.subnav:hover {
+    background: #efefef;
+    color: #333;
+}
+
+.edu_content ul:nth-child(3) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(5) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(7) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(9) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(11) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(13) .subnav {
+    background: #006994;
+}
+.edu_content ul:nth-child(15) .subnav {
+    background: #003d58;
+}
+.edu_content ul:nth-child(17) .subnav {
+    background: #006994;
+}
+
+/* ----- / Sub nav ------ */
+
+/* ---- Typografi ---- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bebas_neueregular;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 5em;
+    color: #bababa;
+}
+
+h2 {}
+
+h3 {
+    font-size: 2.4em;
+    color: #808080;
+    padding-top: 40px;
+}
+
+h4 {}
+
+h5 {
+    font-size: 1.1em;
+    color: #555;
+}
+
+h6 {}
+
+p {}
+
+/* ---- FIX ---- */
+.fix {
+    clear: both;
+}
+/* ---- /FIX ---- */
+
