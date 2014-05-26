@@ -37,15 +37,16 @@ body {
 
 .wrapper {
     width: 95%;
-    max-width: 960px;
+    max-width: 1100px;
     margin: 0 auto;
-    border: solid 1px #ccc;
-    padding: 10px;
+   
+    
 }
 
 .main-content { 
     width: 59%;
     float: left;
+    padding: 2.4%;
 }
 header {
     background-image: url(../images/header.svg);
@@ -55,7 +56,7 @@ header {
 }
 .innerheader {
     width: 95%;
-    max-width: 960px;
+    max-width: 1100px;
     margin: 0 auto;
     padding-top:150px;
 }
@@ -73,16 +74,48 @@ aside {}
 
 footer {
     clear: both;
+    background: #184153;
+    padding: 30px;
+    color: white;
+    
+}
+.innerfooter {
+    width: 95%;
+    max-width: 1100px;
+    margin:0 auto;
+   
+    
+}
+
+.footerbox {
+    width: 25%;
+    height: 200px;
+   
+    float: left;
+    
+    border-right: 1px dashed #ccc;
+    padding-right: 4.9%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    color:white;
+    
+   
+    
+}
+.footerbox h5 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 
 .education {
-    width: 24%;
+    width: 21%;
     float: left;
 }
 
 .edu_content {
-    width: 20%;
+    width: 15%;
     float: right;
 }
 
@@ -127,9 +160,17 @@ nav ul li a:hover {}
 
 /* ---- Spec Nav ---- */
 
+.spec_box {
+background: #d1d1d1;
+}
+
 .spec_nav {
-    background: #ccc;
-    text-align:center;
+    
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #009fe3;
+    
 }
 
 .spec_nav ul {
@@ -143,7 +184,7 @@ nav ul li a:hover {}
 .spec_nav li a {
     display: inline-block;
     font-size: 16px;
-    width: 10.7%;
+    width: 15.6%;
     
     background: green;
     margin: 0px;
@@ -261,30 +302,49 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
     margin: 0px;
 }
-
+/* Logotyp */
 h1 {
     font-size: 8em;
     color: rgba(255, 255, 255, 0.51);
 }
-
-h2 {}
+/* Rubrik för ämne */
+h2 {
+    font-size: 5.4em;
+    color: #808080;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 h3 {
     font-size: 2.4em;
     color: #808080;
     padding-top: 40px;
 }
-
-h4 {}
-
+/* Rubrik för nya content_blocken */
+h4 {
+    font-size: 2.4em;
+    color: #808080;
+    padding-top: 40px
+}
+/* Underrubik för kategorier och läs vidare */
 h5 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #555;
 }
 
 h6 {}
 
 p {}
+
+.copy {
+    font-family:;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.6em;
+    margin-top: 50px;
+    border-top:1px solid #848484;
+    padding-top: 5px;
+}
 
 /* ---- FIX ---- */
 .fix {
